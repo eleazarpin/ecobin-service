@@ -1,0 +1,53 @@
+{
+  "development": {
+    "db": {
+      "username": "ecobin",
+      "password": "",
+      "database": "ecobin",
+      "host": "localhost",
+      "dialect": "mysql",
+      "define": {
+        "timestamps": false
+      }
+    },
+    "aws_access_key":"",
+    "aws_secret_key":"",
+    "aws_bucket":"imagenes-ecobin",
+    "port": 3000
+    
+  },
+
+  "test": {
+    "db": {
+      "username": "ecobin_admin",
+      "password": "",
+      "database": "ecobin",
+      "host": "",
+      "dialect": "mysql",
+      "define": {
+        "timestamps": false
+      }
+    },
+    "aws_access_key":"",
+    "aws_secret_key":"",
+    "aws_bucket":"imagenes-ecobin",
+    "port": 3000
+  },
+  
+  "production": {
+    "db": {
+      "username": "ecobin_admin",
+      "password": "",
+      "database": "ecobin",
+      "host": "",
+      "dialect": "mysql",
+      "define": {
+        "timestamps": false
+      }
+    },
+    "aws_access_key":"",
+    "aws_secret_key":"",
+    "aws_bucket":"imagenes-ecobin",
+    "port": 3000
+  }
+}
